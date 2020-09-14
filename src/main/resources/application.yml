@@ -1,0 +1,11 @@
+server:
+  port: 8000
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://122.112.145.209:3306/shiro_demo
+      username: anly1
+      password: 132Hate132
+      validationQuery: select 1
+sys-configuration:
+  public-key-expire-time: 180
