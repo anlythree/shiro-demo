@@ -65,7 +65,6 @@ public class MyShiroRealm extends AuthorizingRealm {
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principals) {
         log.info("doGetAuthorizationInfo");
-
         return null;
     }
 }
