@@ -41,6 +41,7 @@ public class PermissionServiceImpl extends ServiceImpl<PermissionDao, Permission
         // 查询权限id集合
 //        lambdaQuery()
 //                .eq(Permission::)
+
         return permissionList;
     }
 
