@@ -1,0 +1,83 @@
+server:
+  port: 8888
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://103.72.146.31:5432/anlydemo?serverTimeZone=Shanghai&useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: postgres
+    password: 123hate123
+    validationQuery: select 1
+    type: com.alibaba.druid.pool.DruidDataSource
+    initialSize: 1
+    minIdle: 3
+    maxActive: 20
+    # 配置获取连接等待超时的时间
+    maxWait: 60000
+    # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+    timeBetweenEvictionRunsMillis: 60000
+    # 配置一个连接在池中最小生存的时间，单位是毫秒
+    minEvictableIdleTimeMillis: 30000
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    # 打开PSCache，并且指定每个连接上PSCache的大小
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    # 配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+    filters: stat,wall,slf4j
+    # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+    # 合并多个DruidDataSource的监控数据
+    #useGlobalDataSourceStat: true
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd
+    generator:
+      WRITE_NUMBERS_AS_STRINGS: true
+  application:
+    name: shiro-demo
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 10MB
+      max-request-size: 10MB
+  http:
+    encoding:
+      force: true
+      charset: utf-8
+      enabled: true
+#不过滤的类型 精确到包名或类名 多个用/分割;可以为空
+unfilter:
+  name: com.ever.common.rabbitmq/com.ever.business.scheduled
+jasypt:
+  encryptor:
+    password: crm-0929
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*Mapper.xml
+  typeAliasesPackage: cimc.raffles.qc.entity
+  global-config:
+    id-type: 2
+    field-strategy: 1
+    db-column-underline: false
+    capital-mode: false
+    logic-not-delete-value: 0
+    logic-delete-value: 1
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+logging:
+  config: classpath:logback.xml
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      cors:
+        allowed-origins: "*"
+        allowed-methods: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000

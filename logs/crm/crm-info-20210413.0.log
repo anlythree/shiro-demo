@@ -1,0 +1,188 @@
+2021-04-13 16:06:35.343 [main] INFO  top.anly.ShiroDemoApplication -Starting ShiroDemoApplication on DESKTOP-ANC07SR with PID 2068 (F:\my\shiro-demo\target\classes started by 24501 in F:\my\shiro-demo)
+2021-04-13 16:06:35.353 [main] INFO  top.anly.ShiroDemoApplication -No active profile set, falling back to default profiles: default
+2021-04-13 16:06:38.290 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2021-04-13 16:06:38.327 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2021-04-13 16:06:38.328 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-04-13 16:06:38.345 [main] INFO  o.a.c.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [G:\jdk1.8.0_192\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;G:\python;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;G:\jdk1.8.0_192\bin;G:\jdk1.8.0_192\jre\bin;G:\Git\cmd;G:\Git\bin;G:\Git\mingw64\libexec\git-core;G:\nodejs\;C:\Program Files\nodejs\node_global;G:\maven\apache-maven-3.6.3\bin;G:\gradle-6.5.1\bin;G:\redis\;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\mingw32\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\opt\esp32\xtensa-esp32-elf-5.0\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\opt\esp8266\v5.2.0_for_3.0\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\usr\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\24501\AppData\Local\Microsoft\WindowsApps;;G:\Microsoft VS Code\bin;C:\Users\24501\AppData\Roaming\npm;G:\fiddler;.]
+2021-04-13 16:06:38.604 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2021-04-13 16:06:38.604 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 3097 ms
+2021-04-13 16:06:38.867 [main] INFO  o.a.catalina.core.StandardService -Stopping service [Tomcat]
+2021-04-13 16:06:38.903 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-13 16:08:55.186 [main] INFO  top.anly.ShiroDemoApplication -Starting ShiroDemoApplication on DESKTOP-ANC07SR with PID 6388 (F:\my\shiro-demo\target\classes started by 24501 in F:\my\shiro-demo)
+2021-04-13 16:08:55.196 [main] INFO  top.anly.ShiroDemoApplication -No active profile set, falling back to default profiles: default
+2021-04-13 16:08:58.049 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2021-04-13 16:08:58.088 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2021-04-13 16:08:58.089 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-04-13 16:08:58.105 [main] INFO  o.a.c.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [G:\jdk1.8.0_192\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;G:\python;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;G:\jdk1.8.0_192\bin;G:\jdk1.8.0_192\jre\bin;G:\Git\cmd;G:\Git\bin;G:\Git\mingw64\libexec\git-core;G:\nodejs\;C:\Program Files\nodejs\node_global;G:\maven\apache-maven-3.6.3\bin;G:\gradle-6.5.1\bin;G:\redis\;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\mingw32\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\opt\esp32\xtensa-esp32-elf-5.0\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\opt\esp8266\v5.2.0_for_3.0\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\usr\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\24501\AppData\Local\Microsoft\WindowsApps;;G:\Microsoft VS Code\bin;C:\Users\24501\AppData\Roaming\npm;G:\fiddler;.]
+2021-04-13 16:08:58.355 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2021-04-13 16:08:58.356 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2998 ms
+2021-04-13 16:08:58.594 [main] INFO  o.a.catalina.core.StandardService -Stopping service [Tomcat]
+2021-04-13 16:08:58.629 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-13 16:10:30.421 [main] INFO  top.anly.ShiroDemoApplication -Starting ShiroDemoApplication on DESKTOP-ANC07SR with PID 12436 (F:\my\shiro-demo\target\classes started by 24501 in F:\my\shiro-demo)
+2021-04-13 16:10:30.431 [main] INFO  top.anly.ShiroDemoApplication -No active profile set, falling back to default profiles: default
+2021-04-13 16:10:33.378 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2021-04-13 16:10:33.425 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2021-04-13 16:10:33.425 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-04-13 16:10:33.444 [main] INFO  o.a.c.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [G:\jdk1.8.0_192\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;G:\python;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;G:\jdk1.8.0_192\bin;G:\jdk1.8.0_192\jre\bin;G:\Git\cmd;G:\Git\bin;G:\Git\mingw64\libexec\git-core;G:\nodejs\;C:\Program Files\nodejs\node_global;G:\maven\apache-maven-3.6.3\bin;G:\gradle-6.5.1\bin;G:\redis\;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\mingw32\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\opt\esp32\xtensa-esp32-elf-5.0\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\opt\esp8266\v5.2.0_for_3.0\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\usr\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\24501\AppData\Local\Microsoft\WindowsApps;;G:\Microsoft VS Code\bin;C:\Users\24501\AppData\Roaming\npm;G:\fiddler;.]
+2021-04-13 16:10:33.700 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2021-04-13 16:10:33.701 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 3088 ms
+2021-04-13 16:10:33.953 [main] INFO  o.a.catalina.core.StandardService -Stopping service [Tomcat]
+2021-04-13 16:10:33.990 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-13 16:10:54.559 [main] INFO  top.anly.ShiroDemoApplication -Starting ShiroDemoApplication on DESKTOP-ANC07SR with PID 1400 (F:\my\shiro-demo\target\classes started by 24501 in F:\my\shiro-demo)
+2021-04-13 16:10:54.569 [main] INFO  top.anly.ShiroDemoApplication -No active profile set, falling back to default profiles: default
+2021-04-13 16:10:57.476 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2021-04-13 16:10:57.512 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2021-04-13 16:10:57.513 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-04-13 16:10:57.537 [main] INFO  o.a.c.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [G:\jdk1.8.0_192\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;G:\python;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;G:\jdk1.8.0_192\bin;G:\jdk1.8.0_192\jre\bin;G:\Git\cmd;G:\Git\bin;G:\Git\mingw64\libexec\git-core;G:\nodejs\;C:\Program Files\nodejs\node_global;G:\maven\apache-maven-3.6.3\bin;G:\gradle-6.5.1\bin;G:\redis\;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\mingw32\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\opt\esp32\xtensa-esp32-elf-5.0\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\opt\esp8266\v5.2.0_for_3.0\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\usr\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\24501\AppData\Local\Microsoft\WindowsApps;;G:\Microsoft VS Code\bin;C:\Users\24501\AppData\Roaming\npm;G:\fiddler;.]
+2021-04-13 16:10:57.791 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2021-04-13 16:10:57.791 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 3057 ms
+2021-04-13 16:10:58.025 [main] INFO  o.a.catalina.core.StandardService -Stopping service [Tomcat]
+2021-04-13 16:10:58.064 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-13 16:19:10.848 [main] INFO  top.anly.ShiroDemoApplication -Starting ShiroDemoApplication on DESKTOP-ANC07SR with PID 1476 (F:\my\shiro-demo\target\classes started by 24501 in F:\my\shiro-demo)
+2021-04-13 16:19:10.858 [main] INFO  top.anly.ShiroDemoApplication -No active profile set, falling back to default profiles: default
+2021-04-13 16:19:13.894 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2021-04-13 16:19:13.933 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2021-04-13 16:19:13.934 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-04-13 16:19:13.952 [main] INFO  o.a.c.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [G:\jdk1.8.0_192\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;G:\python;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;G:\jdk1.8.0_192\bin;G:\jdk1.8.0_192\jre\bin;G:\Git\cmd;G:\Git\bin;G:\Git\mingw64\libexec\git-core;G:\nodejs\;C:\Program Files\nodejs\node_global;G:\maven\apache-maven-3.6.3\bin;G:\gradle-6.5.1\bin;G:\redis\;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\mingw32\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\opt\esp32\xtensa-esp32-elf-5.0\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\opt\esp8266\v5.2.0_for_3.0\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\usr\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\24501\AppData\Local\Microsoft\WindowsApps;;G:\Microsoft VS Code\bin;C:\Users\24501\AppData\Roaming\npm;G:\fiddler;.]
+2021-04-13 16:19:14.215 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2021-04-13 16:19:14.215 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 3183 ms
+2021-04-13 16:19:14.503 [main] INFO  o.a.catalina.core.StandardService -Stopping service [Tomcat]
+2021-04-13 16:19:14.549 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-13 16:27:49.289 [main] INFO  top.anly.ShiroDemoApplication -Starting ShiroDemoApplication on DESKTOP-ANC07SR with PID 12392 (F:\my\shiro-demo\target\classes started by 24501 in F:\my\shiro-demo)
+2021-04-13 16:27:49.298 [main] INFO  top.anly.ShiroDemoApplication -No active profile set, falling back to default profiles: default
+2021-04-13 16:27:52.219 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2021-04-13 16:27:52.258 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2021-04-13 16:27:52.258 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-04-13 16:27:52.275 [main] INFO  o.a.c.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [G:\jdk1.8.0_192\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;G:\python;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;G:\jdk1.8.0_192\bin;G:\jdk1.8.0_192\jre\bin;G:\Git\cmd;G:\Git\bin;G:\Git\mingw64\libexec\git-core;G:\nodejs\;C:\Program Files\nodejs\node_global;G:\maven\apache-maven-3.6.3\bin;G:\gradle-6.5.1\bin;G:\redis\;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\mingw32\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\opt\esp32\xtensa-esp32-elf-5.0\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\opt\esp8266\v5.2.0_for_3.0\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\usr\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\24501\AppData\Local\Microsoft\WindowsApps;;G:\Microsoft VS Code\bin;C:\Users\24501\AppData\Roaming\npm;G:\fiddler;.]
+2021-04-13 16:27:52.555 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2021-04-13 16:27:52.555 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 3095 ms
+2021-04-13 16:27:52.809 [main] INFO  o.a.catalina.core.StandardService -Stopping service [Tomcat]
+2021-04-13 16:27:52.846 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-13 16:30:36.901 [main] INFO  top.anly.ShiroDemoApplication -Starting ShiroDemoApplication on DESKTOP-ANC07SR with PID 17320 (F:\my\shiro-demo\target\classes started by 24501 in F:\my\shiro-demo)
+2021-04-13 16:30:36.911 [main] INFO  top.anly.ShiroDemoApplication -No active profile set, falling back to default profiles: default
+2021-04-13 16:30:39.855 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2021-04-13 16:30:39.896 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2021-04-13 16:30:39.896 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-04-13 16:30:39.914 [main] INFO  o.a.c.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [G:\jdk1.8.0_192\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;G:\python;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;G:\jdk1.8.0_192\bin;G:\jdk1.8.0_192\jre\bin;G:\Git\cmd;G:\Git\bin;G:\Git\mingw64\libexec\git-core;G:\nodejs\;C:\Program Files\nodejs\node_global;G:\maven\apache-maven-3.6.3\bin;G:\gradle-6.5.1\bin;G:\redis\;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\mingw32\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\opt\esp32\xtensa-esp32-elf-5.0\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\opt\esp8266\v5.2.0_for_3.0\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\usr\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\24501\AppData\Local\Microsoft\WindowsApps;;G:\Microsoft VS Code\bin;C:\Users\24501\AppData\Roaming\npm;G:\fiddler;.]
+2021-04-13 16:30:40.172 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2021-04-13 16:30:40.173 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 3097 ms
+2021-04-13 16:30:40.420 [main] INFO  o.a.catalina.core.StandardService -Stopping service [Tomcat]
+2021-04-13 16:30:40.454 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-13 16:30:58.588 [main] INFO  top.anly.ShiroDemoApplication -Starting ShiroDemoApplication on DESKTOP-ANC07SR with PID 1696 (F:\my\shiro-demo\target\classes started by 24501 in F:\my\shiro-demo)
+2021-04-13 16:30:58.599 [main] INFO  top.anly.ShiroDemoApplication -No active profile set, falling back to default profiles: default
+2021-04-13 16:31:13.068 [main] INFO  top.anly.ShiroDemoApplication -Starting ShiroDemoApplication on DESKTOP-ANC07SR with PID 13388 (F:\my\shiro-demo\target\classes started by 24501 in F:\my\shiro-demo)
+2021-04-13 16:31:13.078 [main] INFO  top.anly.ShiroDemoApplication -No active profile set, falling back to default profiles: default
+2021-04-13 16:31:15.946 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2021-04-13 16:31:15.982 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2021-04-13 16:31:15.983 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-04-13 16:31:16.003 [main] INFO  o.a.c.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [G:\jdk1.8.0_192\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;G:\python;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;G:\jdk1.8.0_192\bin;G:\jdk1.8.0_192\jre\bin;G:\Git\cmd;G:\Git\bin;G:\Git\mingw64\libexec\git-core;G:\nodejs\;C:\Program Files\nodejs\node_global;G:\maven\apache-maven-3.6.3\bin;G:\gradle-6.5.1\bin;G:\redis\;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\mingw32\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\opt\esp32\xtensa-esp32-elf-5.0\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\opt\esp8266\v5.2.0_for_3.0\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\usr\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\24501\AppData\Local\Microsoft\WindowsApps;;G:\Microsoft VS Code\bin;C:\Users\24501\AppData\Roaming\npm;G:\fiddler;.]
+2021-04-13 16:31:16.264 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2021-04-13 16:31:16.265 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 3034 ms
+2021-04-13 16:31:16.525 [main] INFO  o.a.catalina.core.StandardService -Stopping service [Tomcat]
+2021-04-13 16:31:16.564 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-13 16:32:58.995 [main] INFO  top.anly.ShiroDemoApplication -Starting ShiroDemoApplication on DESKTOP-ANC07SR with PID 16404 (F:\my\shiro-demo\target\classes started by 24501 in F:\my\shiro-demo)
+2021-04-13 16:32:59.004 [main] INFO  top.anly.ShiroDemoApplication -No active profile set, falling back to default profiles: default
+2021-04-13 16:33:02.754 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2021-04-13 16:33:02.796 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2021-04-13 16:33:02.797 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-04-13 16:33:02.813 [main] INFO  o.a.c.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [G:\jdk1.8.0_192\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;G:\python;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;G:\jdk1.8.0_192\bin;G:\jdk1.8.0_192\jre\bin;G:\Git\cmd;G:\Git\bin;G:\Git\mingw64\libexec\git-core;G:\nodejs\;C:\Program Files\nodejs\node_global;G:\maven\apache-maven-3.6.3\bin;G:\gradle-6.5.1\bin;G:\redis\;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\mingw32\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\opt\esp32\xtensa-esp32-elf-5.0\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\opt\esp8266\v5.2.0_for_3.0\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\usr\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\24501\AppData\Local\Microsoft\WindowsApps;;G:\Microsoft VS Code\bin;C:\Users\24501\AppData\Roaming\npm;G:\fiddler;.]
+2021-04-13 16:33:03.121 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2021-04-13 16:33:03.122 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 3963 ms
+2021-04-13 16:33:03.430 [main] INFO  o.a.catalina.core.StandardService -Stopping service [Tomcat]
+2021-04-13 16:33:03.467 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-13 16:37:15.338 [main] INFO  top.anly.ShiroDemoApplication -Starting ShiroDemoApplication on DESKTOP-ANC07SR with PID 15804 (F:\my\shiro-demo\target\classes started by 24501 in F:\my\shiro-demo)
+2021-04-13 16:37:15.349 [main] INFO  top.anly.ShiroDemoApplication -No active profile set, falling back to default profiles: default
+2021-04-13 16:37:18.256 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8888 (http)
+2021-04-13 16:37:18.292 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2021-04-13 16:37:18.293 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-04-13 16:37:18.310 [main] INFO  o.a.c.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [G:\jdk1.8.0_192\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;G:\python;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;G:\jdk1.8.0_192\bin;G:\jdk1.8.0_192\jre\bin;G:\Git\cmd;G:\Git\bin;G:\Git\mingw64\libexec\git-core;G:\nodejs\;C:\Program Files\nodejs\node_global;G:\maven\apache-maven-3.6.3\bin;G:\gradle-6.5.1\bin;G:\redis\;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\mingw32\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\opt\esp32\xtensa-esp32-elf-5.0\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\opt\esp8266\v5.2.0_for_3.0\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\usr\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\24501\AppData\Local\Microsoft\WindowsApps;;G:\Microsoft VS Code\bin;C:\Users\24501\AppData\Roaming\npm;G:\fiddler;.]
+2021-04-13 16:37:18.557 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2021-04-13 16:37:18.558 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 3054 ms
+2021-04-13 16:37:19.255 [main] INFO  c.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+2021-04-13 16:37:20.655 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 16:37:21.151 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8888 (http) with context path ''
+2021-04-13 16:37:21.158 [main] INFO  top.anly.ShiroDemoApplication -Started ShiroDemoApplication in 6.962 seconds (JVM running for 8.725)
+2021-04-13 16:37:25.548 [Thread-18] INFO  o.s.s.c.ThreadPoolTaskExecutor -Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 16:37:25.552 [Thread-18] INFO  c.alibaba.druid.pool.DruidDataSource -{dataSource-1} closed
+2021-04-13 16:38:00.579 [main] INFO  top.anly.ShiroDemoApplication -Starting ShiroDemoApplication on DESKTOP-ANC07SR with PID 10180 (F:\my\shiro-demo\target\classes started by 24501 in F:\my\shiro-demo)
+2021-04-13 16:38:00.587 [main] INFO  top.anly.ShiroDemoApplication -No active profile set, falling back to default profiles: default
+2021-04-13 16:38:03.534 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8888 (http)
+2021-04-13 16:38:03.573 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2021-04-13 16:38:03.574 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-04-13 16:38:03.591 [main] INFO  o.a.c.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [G:\jdk1.8.0_192\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;G:\python;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;G:\jdk1.8.0_192\bin;G:\jdk1.8.0_192\jre\bin;G:\Git\cmd;G:\Git\bin;G:\Git\mingw64\libexec\git-core;G:\nodejs\;C:\Program Files\nodejs\node_global;G:\maven\apache-maven-3.6.3\bin;G:\gradle-6.5.1\bin;G:\redis\;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\mingw32\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\opt\esp32\xtensa-esp32-elf-5.0\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\opt\esp8266\v5.2.0_for_3.0\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\usr\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\24501\AppData\Local\Microsoft\WindowsApps;;G:\Microsoft VS Code\bin;C:\Users\24501\AppData\Roaming\npm;G:\fiddler;.]
+2021-04-13 16:38:03.853 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2021-04-13 16:38:03.854 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 3126 ms
+2021-04-13 16:38:04.607 [main] INFO  c.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+2021-04-13 16:38:06.091 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 16:38:06.631 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8888 (http) with context path ''
+2021-04-13 16:38:06.641 [main] INFO  top.anly.ShiroDemoApplication -Started ShiroDemoApplication in 7.194 seconds (JVM running for 8.878)
+2021-04-13 18:14:01.452 [http-nio-8888-exec-1] INFO  o.a.coyote.http11.Http11Processor -Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:414)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-04-13 18:14:23.573 [http-nio-8888-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-13 18:14:23.574 [http-nio-8888-exec-3] INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2021-04-13 18:14:23.608 [http-nio-8888-exec-3] INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 33 ms
+2021-04-13 18:14:38.338 [Thread-19] INFO  o.s.s.c.ThreadPoolTaskExecutor -Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 18:14:38.340 [Thread-19] INFO  c.alibaba.druid.pool.DruidDataSource -{dataSource-1} closed
+2021-04-13 18:14:47.959 [main] INFO  top.anly.ShiroDemoApplication -Starting ShiroDemoApplication on DESKTOP-ANC07SR with PID 11460 (F:\my\shiro-demo\target\classes started by 24501 in F:\my\shiro-demo)
+2021-04-13 18:14:47.969 [main] INFO  top.anly.ShiroDemoApplication -No active profile set, falling back to default profiles: default
+2021-04-13 18:14:50.899 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8888 (http)
+2021-04-13 18:14:50.943 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2021-04-13 18:14:50.944 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-04-13 18:14:50.959 [main] INFO  o.a.c.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [G:\jdk1.8.0_192\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;G:\python;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;G:\jdk1.8.0_192\bin;G:\jdk1.8.0_192\jre\bin;G:\Git\cmd;G:\Git\bin;G:\Git\mingw64\libexec\git-core;G:\nodejs\;C:\Program Files\nodejs\node_global;G:\maven\apache-maven-3.6.3\bin;G:\gradle-6.5.1\bin;G:\redis\;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\mingw32\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\opt\esp32\xtensa-esp32-elf-5.0\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\opt\esp8266\v5.2.0_for_3.0\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\usr\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\24501\AppData\Local\Microsoft\WindowsApps;;G:\Microsoft VS Code\bin;C:\Users\24501\AppData\Roaming\npm;G:\fiddler;.]
+2021-04-13 18:14:51.223 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2021-04-13 18:14:51.224 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 3107 ms
+2021-04-13 18:14:51.965 [main] INFO  c.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+2021-04-13 18:14:53.391 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 18:14:53.903 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8888 (http) with context path ''
+2021-04-13 18:14:53.910 [main] INFO  top.anly.ShiroDemoApplication -Started ShiroDemoApplication in 7.107 seconds (JVM running for 8.856)
+2021-04-13 18:15:25.489 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-13 18:15:25.490 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2021-04-13 18:15:25.511 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 21 ms
+2021-04-13 18:24:17.568 [Thread-19] INFO  o.s.s.c.ThreadPoolTaskExecutor -Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 18:24:17.572 [Thread-19] INFO  c.alibaba.druid.pool.DruidDataSource -{dataSource-1} closed
+2021-04-13 18:24:31.186 [restartedMain] INFO  top.anly.ShiroDemoApplication -Starting ShiroDemoApplication on DESKTOP-ANC07SR with PID 16988 (F:\my\shiro-demo\target\classes started by 24501 in F:\my\shiro-demo)
+2021-04-13 18:24:31.195 [restartedMain] INFO  top.anly.ShiroDemoApplication -No active profile set, falling back to default profiles: default
+2021-04-13 18:24:31.368 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-13 18:24:31.369 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-13 18:24:35.144 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8888 (http)
+2021-04-13 18:24:35.186 [restartedMain] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2021-04-13 18:24:35.187 [restartedMain] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-04-13 18:24:35.207 [restartedMain] INFO  o.a.c.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [G:\jdk1.8.0_192\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;G:\python;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;G:\jdk1.8.0_192\bin;G:\jdk1.8.0_192\jre\bin;G:\Git\cmd;G:\Git\bin;G:\Git\mingw64\libexec\git-core;G:\nodejs\;C:\Program Files\nodejs\node_global;G:\maven\apache-maven-3.6.3\bin;G:\gradle-6.5.1\bin;G:\redis\;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\mingw32\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\opt\esp32\xtensa-esp32-elf-5.0\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\opt\esp8266\v5.2.0_for_3.0\bin;G:\aithinker\directory\AiThinkerIDE_V1.5.2\msys32\usr\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\24501\AppData\Local\Microsoft\WindowsApps;;G:\Microsoft VS Code\bin;C:\Users\24501\AppData\Roaming\npm;G:\fiddler;.]
+2021-04-13 18:24:35.477 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2021-04-13 18:24:35.477 [restartedMain] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 4108 ms
+2021-04-13 18:24:36.229 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+2021-04-13 18:24:39.226 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8888 (http) with context path ''
+2021-04-13 18:24:39.233 [restartedMain] INFO  top.anly.ShiroDemoApplication -Started ShiroDemoApplication in 9.233 seconds (JVM running for 12.078)
+2021-04-13 18:25:01.491 [http-nio-8888-exec-4] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-13 18:25:01.492 [http-nio-8888-exec-4] INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2021-04-13 18:25:01.522 [http-nio-8888-exec-4] INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 29 ms
+2021-04-13 18:29:28.852 [Thread-27] INFO  c.alibaba.druid.pool.DruidDataSource -{dataSource-1} closed
