@@ -7,13 +7,21 @@ import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
 import org.apache.shiro.authc.SimpleAuthenticationInfo;
 import org.apache.shiro.authz.AuthorizationInfo;
+import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.util.ByteSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import top.anly.business.permission.domain.Permission;
+import top.anly.business.permission.service.PermissionService;
 import top.anly.business.user.domain.User;
 import top.anly.business.user.service.UserService;
+import top.anly.common.util.CommonUtils;
+
+import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 /**
  * @author wangli
@@ -25,6 +33,9 @@ public class MyShiroRealm extends AuthorizingRealm {
 
     @Autowired
     private UserService userService;
+
+    @Autowired
+    private PermissionService permissionService;
 
     /**
      * 认证、登录逻辑
@@ -65,6 +76,12 @@ public class MyShiroRealm extends AuthorizingRealm {
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principals) {
         log.info("doGetAuthorizationInfo");
-        return null;
+        User user = (User)principals.getPrimaryPrincipal();
+        List<Permission> permissionListByUser = permissionService.getPermissionByUser(user.getId());
+        List<String> permCodeList = permissionListByUser.stream().map(Permission::getPermCode).collect(Collectors.toList());
+        Set<String> permCodeSet = CommonUtils.ListToSet(permCodeList);
+        SimpleAuthorizationInfo simpleAuthorizationInfo = new SimpleAuthorizationInfo();
+        simpleAuthorizationInfo.setStringPermissions(permCodeSet);
+        return simpleAuthorizationInfo;
     }
 }
