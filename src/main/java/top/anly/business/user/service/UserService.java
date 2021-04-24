@@ -9,5 +9,12 @@ import top.anly.business.user.domain.User;
  */
 public interface UserService extends IService<User> {
 
+    /**
+     * 通过名称查找用户
+     * @param name
+     * @return
+     */
+    User getUserByName(String name);
+
 
 }

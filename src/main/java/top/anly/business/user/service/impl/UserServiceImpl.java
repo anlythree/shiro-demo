@@ -13,4 +13,12 @@ import top.anly.business.user.service.UserService;
 @Service
 public class UserServiceImpl extends ServiceImpl<UserDao, User> implements UserService{
 
+    @Override
+    public User getUserByName(String name) {
+        User user = lambdaQuery()
+                .eq(User::getAccount, name)
+                .last("limit 1;")
+                .one();
+        return user;
+    }
 }
