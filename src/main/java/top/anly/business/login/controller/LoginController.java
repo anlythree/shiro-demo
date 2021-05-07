@@ -34,7 +34,10 @@ public class LoginController {
     @RequestMapping(value = "/doLogin")
     public Result<User> doLogin(@RequestBody LoginParam loginParam) {
         Subject subject = SecurityUtils.getSubject();
-        UsernamePasswordToken token = new UsernamePasswordToken();
+        UsernamePasswordToken token = new UsernamePasswordToken(
+                loginParam.getAccount(),
+                loginParam.getPsWd()
+        );
         try {
             subject.login(token);
         } catch (AuthenticationException e) {

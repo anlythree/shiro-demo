@@ -9,7 +9,7 @@ import top.anly.business.user.domain.User;
  * @date 2021/4/24 10:08
  */
 @Component
-public class SimpleTest {
+public class SimpleBeanTest {
 
     @Bean
     public User user(boolean b){

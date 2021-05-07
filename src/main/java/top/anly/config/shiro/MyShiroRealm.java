@@ -47,10 +47,10 @@ public class MyShiroRealm extends AuthorizingRealm {
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken token) throws AuthenticationException {
         log.info("doGetAuthenticationInfo");
         // 获取当前用户名
-        String userName = (String)token.getPrincipal();
+        String account = (String)token.getPrincipal();
         // 查询数据库
         User user = userService.lambdaQuery()
-                .eq(User::getUserName, userName)
+                .eq(User::getAccount, account)
                 .last("limit 1;")
                 .one();
         if(null == user){
@@ -60,7 +60,7 @@ public class MyShiroRealm extends AuthorizingRealm {
         // 构造返回值
         SimpleAuthenticationInfo authenticationInfo = new SimpleAuthenticationInfo(
                 user,
-                userName,
+                account,
                 // 盐值
                 ByteSource.Util.bytes(user.getSale()),
                 "MyShiroRealm"
