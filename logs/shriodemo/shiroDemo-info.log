@@ -186,3 +186,4 @@
 2021-05-10 15:00:37.168 [http-nio-8888-exec-2] INFO  top.anly.config.shiro.MyShiroRealm -doGetAuthenticationInfo
 2021-05-10 15:02:29.128 [http-nio-8888-exec-1] INFO  top.anly.config.shiro.MyShiroRealm -doGetAuthenticationInfo
 2021-05-10 15:02:47.664 [http-nio-8888-exec-4] INFO  top.anly.config.shiro.MyShiroRealm -doGetAuthenticationInfo
+2021-05-10 15:12:26.044 [http-nio-8888-exec-6] INFO  top.anly.config.shiro.MyShiroRealm -doGetAuthenticationInfo
