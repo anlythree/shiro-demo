@@ -2,10 +2,7 @@ package top.anly.config.shiro;
 
 import lombok.extern.slf4j.Slf4j;
 import net.bytebuddy.asm.Advice;
-import org.apache.shiro.authc.AuthenticationException;
-import org.apache.shiro.authc.AuthenticationInfo;
-import org.apache.shiro.authc.AuthenticationToken;
-import org.apache.shiro.authc.SimpleAuthenticationInfo;
+import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
@@ -39,6 +36,7 @@ public class MyShiroRealm extends AuthorizingRealm {
 
     /**
      * 认证、登录逻辑
+     *
      * @param token
      * @return
      * @throws AuthenticationException
@@ -49,10 +47,7 @@ public class MyShiroRealm extends AuthorizingRealm {
         // 获取当前用户名
         String account = (String)token.getPrincipal();
         // 查询数据库
-        User user = userService.lambdaQuery()
-                .eq(User::getAccount, account)
-                .last("limit 1;")
-                .one();
+        User user = userService.getUserByName(account);
         if(null == user){
             // 如果shiro的认证逻辑返回了null就说明认证或登录失败
             return null;
@@ -60,13 +55,30 @@ public class MyShiroRealm extends AuthorizingRealm {
         // 构造返回值
         SimpleAuthenticationInfo authenticationInfo = new SimpleAuthenticationInfo(
                 user,
-                account,
+                user.getPassWord(),
                 // 盐值
-                ByteSource.Util.bytes(user.getSale()),
+//                ByteSource.Util.bytes(user.getSale()),
                 "MyShiroRealm"
         );
         return authenticationInfo;
     }
+    //认证访法
+//    @Override
+//    protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken token) throws AuthenticationException {
+//        System.out.println("realm------------------------");
+//        UsernamePasswordToken mytoken=(UsernamePasswordToken) token;
+//        String account=mytoken.getUsername();
+//        //根据用户名查询数据·库中的密码
+//        User user = userService.getUserByName(account);
+//        if(user==null) {
+//            //用户不存在
+//            return null;
+//        }
+//        //如果能查询到，再由框架比对数据库中查询到的密码和页面提交的密码是否一致
+//        AuthenticationInfo info = new SimpleAuthenticationInfo(user,user.getPassWord(),this.getName());
+//        return info;
+//    }
+
 
     /**
      * 授权
