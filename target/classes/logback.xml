@@ -1,5 +1,4 @@
 <configuration scan="true">
-    <!--<property name="logPath" value="${catalina.base}/logs"/>-->
     <property name="logPath" value="logs/shriodemo"/>
     <!--todo begin 开发打印控制台日志,上线前删除-->
     <include resource="org/springframework/boot/logging/logback/base.xml" />

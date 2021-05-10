@@ -127,6 +127,8 @@ public class MyShiroConfig {
         HashedCredentialsMatcher matcher = new HashedCredentialsMatcher();
         matcher.setHashAlgorithmName("MD5");
         matcher.setHashIterations(1);
+        // 加密密码转化为16进制
+        matcher.setStoredCredentialsHexEncoded(true);
         return matcher;
     }
 
