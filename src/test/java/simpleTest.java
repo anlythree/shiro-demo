@@ -2,6 +2,7 @@ import org.apache.shiro.crypto.hash.Md5Hash;
 import org.apache.shiro.crypto.hash.SimpleHash;
 import org.apache.shiro.util.ByteSource;
 import org.junit.Test;
+import top.anly.common.MyTestAnno;
 
 /**
  * @author wangli

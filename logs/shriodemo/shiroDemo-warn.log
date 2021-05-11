@@ -1,5 +1,4 @@
-2021-05-10 14:35:41.369 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -Unable to start LiveReload server
-2021-05-10 14:46:37.843 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -Unable to start LiveReload server
-2021-05-10 14:56:46.632 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -Unable to start LiveReload server
-2021-05-10 15:00:21.658 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -Unable to start LiveReload server
-2021-05-10 15:02:29.477 [http-nio-8888-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver -Resolved [top.anly.exception.AppException: 2010:密码错误]
+2021-05-11 14:58:46.764 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -Unable to start LiveReload server
+2021-05-11 15:03:16.997 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -Unable to start LiveReload server
+2021-05-11 15:04:07.967 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -Unable to start LiveReload server
+2021-05-11 15:05:52.232 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -Unable to start LiveReload server

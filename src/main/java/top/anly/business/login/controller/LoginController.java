@@ -57,4 +57,19 @@ public class LoginController {
             return Result.ok();
         }
     }
+
+    @ApiOperation("登出接口")
+    @RequestMapping(value = "/doLogout")
+    public Result doLogout(@RequestBody LoginParam loginParam) {
+        Subject subject = SecurityUtils.getSubject();
+        subject.logout();
+        return Result.ok();
+    }
+
+    @ApiOperation("返回当前登录人接口")
+    @RequestMapping(value = "/getCurrentUser")
+    public Result<User> doLoginOut(@RequestBody LoginParam loginParam) {
+        User currentUser = (User)SecurityUtils.getSubject().getPrincipal();
+        return Result.ok(currentUser);
+    }
 }

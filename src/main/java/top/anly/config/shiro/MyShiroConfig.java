@@ -44,6 +44,9 @@ public class MyShiroConfig {
 
         // 登录接口允许匿名访问
         filterMap.put("/login/login/doLogin", "anon");
+        filterMap.put("/login/login/doLogout", "anon");
+        filterMap.put("/login/login/getCurrentUser", "anon");
+
         filterMap.put("/admin/register/view", "anon");
         filterMap.put("/admin/register", "anon");
 
