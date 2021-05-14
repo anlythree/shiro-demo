@@ -33,5 +33,6 @@ public class simpleTest {
     public void test3() {
         //需要传入两个参数，第一个是密码，第二个是盐
         System.out.println(new Md5Hash("132132", "sale-test").toString()) ;
+
     }
 }
