@@ -197,3 +197,5 @@
 2021-05-11 15:06:04.076 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
 2021-05-11 15:06:04.157 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 81 ms
 2021-05-11 15:06:47.502 [http-nio-8888-exec-2] INFO  top.anly.config.shiro.MyShiroRealm -doGetAuthenticationInfo
+2021-05-11 15:52:49.754 [Thread-43] INFO  o.s.s.c.ThreadPoolTaskExecutor -Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-11 15:52:49.760 [Thread-43] INFO  c.alibaba.druid.pool.DruidDataSource -{dataSource-1} closed
